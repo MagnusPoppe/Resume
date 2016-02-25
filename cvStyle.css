@@ -33,25 +33,53 @@ main {
 #cv, #omMeg {
     display: inline-block;
     position: relative;
+    width: 400px;
 }
 
 #cv {
-
 }
 
 #omMeg {
-
 }
+
+.left, .right {
+    display: inline-block;
+    position: inherit;
+}
+.left {
+    float: left;
+    padding-right: 15px;
+}
+
+.right {
+     float: left;
+ }
 
 
 /*
  * Fonter og utforming
  */
 
-h1, h2, h3, h4, h5, h6, p {
+h1 {
 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
 }
 
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
 a {
     text-decoration: none;
 }
