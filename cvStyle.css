@@ -1,0 +1,65 @@
+/*
+ * Tilpasset skrivebordsvisning.
+ * Tilhører siden "cv.html".
+ * Skrevet av: Magnus Poppe Wang
+ */
+
+
+/*
+ * Bokselementer og deres innstillinger:
+ */
+
+html, body {
+    margin:  0;
+    padding: 0;
+}
+
+header, main, article, div {
+
+}
+
+header {
+
+}
+
+main {
+    /** SIZE PROPERITIES **/
+        min-width: 500px;
+        width: 80%;
+        max-width: 800px;
+    
+}
+
+#cv, #omMeg {
+    display: inline-block;
+    position: relative;
+}
+
+#cv {
+
+}
+
+#omMeg {
+
+}
+
+
+/*
+ * Fonter og utforming
+ */
+
+h1, h2, h3, h4, h5, h6, p {
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+/*
+ * Bilder o.l.
+ */
